@@ -1,8 +1,5 @@
-a = int(input())
-b = int(input())
-if a > b:
-    print('Maximum =', a)
-    print('Minimum =', b)
+n = int(input())
+if n % 2 == 0:
+    print("Even")
 else:
-    print('Maximum =', b)
-    print('Minimum =', a)
+    print("Odd")
